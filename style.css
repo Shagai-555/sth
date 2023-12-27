@@ -126,3 +126,7 @@ prop {
 #yes-button.clicked {
   animation: bounce 1s;
 }
+
+#yes {
+  display: none;
+}
