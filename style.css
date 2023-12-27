@@ -68,6 +68,10 @@ p {
   filter: drop-shadow(2px 1.5px 1px rgba(37, 36, 42, 0.9));
 }
 
+.p4 {
+  font-size: 100px;
+}
+
 prop {
   font-family: 'Zeyada';
   font-size: 50px;
