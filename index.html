@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/images/fly.png">
+  <title>To Emu</title>
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <div class="paper" id="yes" style="display: block;">
+    <p class="p1">
+      <img src="https://media.giphy.com/media/xUySTUZ8A2RJBQitEc/giphy.gif" alt="Cool GIF">
+    </p>
+  </div>
+
+  <div class="paper" id="props">
+    <p class="prop">
+      " Nadtai uyrheh uu ? "
+    <br>
+      Esuul 
+    <br>
+      " Will you be My GF ? "
+    <br>
+    <button id="yes-button" onclick="showProposalMessage()">Tegiidaa</button>
+    <button id="no-button" onclick="animateNo()">Uguidee guzeelgene min</button>
+    <p id="proposal-message"></p>
+    </p>
+
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Zaa gol asuudaldaa oriii hahahha
+      <br>
+      beltgeltei bgaraai hahha
+    </p>
+  </div>
+
+  <div class="paper heart">
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      HAIRTAI SHUU 
+    </p>
+  </div>
+
+  <div class="paper">
+        <p class="p1">
+          🥺 Sanana daa huurhun huuhdee, tevermeer baina bh
+          <br>
+          gehdee bi mundag bj bnaa ZAA 🦸
+        </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🚌 Odoo eniig zamdaa unshij bgaa bh
+      <br>
+      Gertei ocood goy amraad, zunduu erhleed
+      <br>
+      duuteigee bolzood gogo baigaarai.
+      <br>
+      Nadaa sanaa zovoh hereggue 💗 mash
+      <br>
+      dulaahan bas uvduhguig hiceeh bolohoor. 
+      <br> ヾ(＠⌒ー⌒＠)ノ
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🫂 Hajuud min bgaad, bas hajuudaa bailgaj bgaad
+      <br>
+      erhluuluulj /ene bat aldaatai biccihlee/ bgaad
+      <br>
+      Aanaa neg uitgartai nadad ineed beleglej, hairlaj
+      <br>
+      hairluulj (❤️ ω ❤️) bgad uneheer ih bayrlalaa. 
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      ❄️ Uvuld ter tusmaa shine jild neeh ach 
+      <br>
+      holbogdol ugduggui bsan. Harin odoo bol
+      <br>
+      hamgiin ih huleej, dogdoldog bayr bolj bh shig bn. HHE
+      <br>
+      11.30 Shagai & Emu 🎄
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+        Tom boljoogood design aa camaar garguulahgui bol
+        <br> 
+        ymarc ungunii medremjgu hhe (┬┬﹏┬┬)
+        <br>
+        Zaa butsii 🔙
+    </p>
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> 
+      😍 Heldeg dee cinii hajuud baihaar taivshirdag, 
+      <br>
+      joohon sahilgagu shagaig mederdeg. Aa bas
+      <br>
+      garaas ni atgaad alhahaar martamhai deeree 
+      <br>
+      nemeed hamag (▀̿Ĺ̯▀̿ ̿) ymaa martcihna hahaha. 😍
+    </p>
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> 
+      💘 Tsag unguruh tusam, hajuud cin baih tusam neg l 
+      <br>
+      zuiliig bodoj bgaa. Ter yu ve geheer bi neeree segsiigeel 
+      <br>
+      yvj baigaad  uneheer huurhun ohind durlacihaj ee gej. 💘
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      <span style="color: red !important;">❤️</span>
+        Kmm kmmm, Huurhunlduu hhe 
+      <span style="color: red !important;">❤️</span>
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Sain uu, ymar nutgiin ymar huu 🐂 bi Sain
+      <br>
+      yasan iisen ci sain uu hhe yu geed bdag bilee hahaha 😂
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Zia ene tsaasnuudiig hudulguurei 
+      <br>
+        Jich : Kyrilleer bicii gesen font ni boldgue
+      <br>
+      (ノへ￣、)
+    </p>
+  </div>
+  
+  <script src="./script.js"></script>
+
+</body>
+
+<script>
+  function showProposalMessage() {
+    // document.getElementById("proposal-message").style.display = "block";
+    // document.getElementById("yes-button").style.display = "none";
+    // document.getElementById("no-button").style.display = "none";
+    document.getElementById("yes").style.display = "center";
+    document.getElementById("props").style.display = "none";
+  }
+
+  function animateNo() {
+    var messages = [
+      "Uu darcij bgamu, anduursan bh te?",
+      "Dahiad uzdee",
+      "Ene yg gatscihaj",
+      "Ayayayya ",
+      "Tegiida deer ni daraad uzeh uu?"
+    ];
+
+    var randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+    alert(randomMessage);
+  }
+</script>
+
+</html>
